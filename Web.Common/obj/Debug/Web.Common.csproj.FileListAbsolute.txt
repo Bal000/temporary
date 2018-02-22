@@ -1,0 +1,4 @@
+C:\Users\Administratör\Documents\Visual Studio 2015\Projects\MyWebApp\Web.Common\bin\Debug\Web.Common.dll
+C:\Users\Administratör\Documents\Visual Studio 2015\Projects\MyWebApp\Web.Common\bin\Debug\Web.Common.pdb
+C:\Users\Administratör\Documents\Visual Studio 2015\Projects\MyWebApp\Web.Common\obj\Debug\Web.Common.dll
+C:\Users\Administratör\Documents\Visual Studio 2015\Projects\MyWebApp\Web.Common\obj\Debug\Web.Common.pdb

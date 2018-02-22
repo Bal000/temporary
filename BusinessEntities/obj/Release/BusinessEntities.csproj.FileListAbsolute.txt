@@ -1,0 +1,5 @@
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\bin\Release\BusinessEntities.dll
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\bin\Release\BusinessEntities.pdb
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\obj\Release\BusinessEntities.dll
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\obj\Release\BusinessEntities.pdb
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\obj\Release\BusinessEntities.csprojResolveAssemblyReference.cache

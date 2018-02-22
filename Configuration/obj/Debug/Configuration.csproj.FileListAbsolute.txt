@@ -1,0 +1,4 @@
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\bin\Debug\Configuration.dll
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\bin\Debug\Configuration.pdb
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\obj\Debug\Configuration.dll
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\obj\Debug\Configuration.pdb

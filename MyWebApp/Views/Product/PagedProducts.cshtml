@@ -1,0 +1,51 @@
+﻿@using MyWebApp.Models;
+@using MyWebApp.Extensions.HtmlExtensions;
+@model PaginationViewModel<ProductViewModel>
+
+<h2>Products</h2>
+@if (@Model._modelList.Count > 0)
+{
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Product name</th>
+                <th>Color</th>
+                <th>Size</th>
+                <th>Weight</th>
+                <th>Standard cost</th>
+                <th>List Price</th>
+                <th>Sell Start Date</th>
+                <th>Sell End Date</th>
+                <th>Date Modified</th>
+            </tr>
+        </thead>
+        <tbody>
+            @for (int i = 0; i < Model._modelList.Count; i++)
+                {
+                <tr>
+                    <td class="col-md-2">@Model._modelList[i].Name</td>
+                    <td class="col-md-1">@(string.IsNullOrEmpty(@Model._modelList[i].Color) ? "N/A" : @Model._modelList[i].Color)</td>
+                    <td class="col-md-1">@(string.IsNullOrEmpty(@Model._modelList[i].Size) ? "N/A" : @Model._modelList[i].Size)</td>
+                    <td class="col-md-1">@(Model._modelList[i].Weight.HasValue ? Model._modelList[i].Weight.Value.ToString() : "N/A")</td>
+                    <td class="col-md-1">@Model._modelList[i].StandardCost</td>
+                    <td class="col-md-1">@Model._modelList[i].ListPrice</td>
+                    <td class="col-md-1">@Model._modelList[i].SellStartDate.ToString("yyyy-MM-dd")</td>
+                    <td class="col-md-1">@(Model._modelList[i].SellEndDate.HasValue ? Model._modelList[i].SellEndDate.Value.ToString("yyyy-MM-dd") : "N/A")</td>
+                    <td class="col-md-2">@Model._modelList[i].ModifiedDate.ToString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    if (Model._modelList.First().RowCount > Model._pageViewModel.PageSize)
+    {
+        <div class="pagination-content" data-page="@Model._pageViewModel.Page" data-pagesize="@Model._pageViewModel.PageSize" data-rowcount="@Model._modelList.First().RowCount">
+            @Html.RenderPagination("~/Product/GetPagedProducts", Model._pageViewModel, Model._modelList.First().RowCount)
+        </div>
+    }
+
+
+}
+else
+{
+    <p>No Products found!</p>
+}

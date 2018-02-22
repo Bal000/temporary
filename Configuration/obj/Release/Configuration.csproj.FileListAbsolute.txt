@@ -1,0 +1,5 @@
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\bin\Release\Configuration.dll
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\bin\Release\Configuration.pdb
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\obj\Release\Configuration.dll
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\obj\Release\Configuration.pdb
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\Configuration\obj\Release\Configuration.csprojResolveAssemblyReference.cache

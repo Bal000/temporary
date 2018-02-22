@@ -1,0 +1,4 @@
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\Administratör\documents\visual studio 2015\Projects\MyWebApp\BusinessEntities\obj\Debug\BusinessEntities.pdb
